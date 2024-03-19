@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactdhtechwebsite/static/css/main.ec5fe005.css",
-    "main.js": "/reactdhtechwebsite/static/js/main.1bbb499f.js",
+    "main.js": "/reactdhtechwebsite/static/js/main.9fe7fd37.js",
     "static/media/Dp.png": "/reactdhtechwebsite/static/media/Dp.49b40aae6446650b01aa.png",
     "static/media/Marketing.png": "/reactdhtechwebsite/static/media/Marketing.d13186dc11f15c445134.png",
     "static/media/Android-Development.png": "/reactdhtechwebsite/static/media/Android-Development.4ef3f410a332d28e86d1.png",
@@ -12,10 +12,10 @@
     "static/media/Web-Development.png": "/reactdhtechwebsite/static/media/Web-Development.64ebc14cd8a370db7493.png",
     "index.html": "/reactdhtechwebsite/index.html",
     "main.ec5fe005.css.map": "/reactdhtechwebsite/static/css/main.ec5fe005.css.map",
-    "main.1bbb499f.js.map": "/reactdhtechwebsite/static/js/main.1bbb499f.js.map"
+    "main.9fe7fd37.js.map": "/reactdhtechwebsite/static/js/main.9fe7fd37.js.map"
   },
   "entrypoints": [
     "static/css/main.ec5fe005.css",
-    "static/js/main.1bbb499f.js"
+    "static/js/main.9fe7fd37.js"
   ]
 }

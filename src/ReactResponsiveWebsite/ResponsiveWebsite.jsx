@@ -8,7 +8,7 @@ import About from "./About";
 import ContactUs from "./ContactUs";
 import Developer from "./Developer";
 import Error from "./Error";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import "./ResponsiveWebsite.css";
 import Footer from "./Footer";
 const ResponsiveWebsite = () => {
@@ -21,7 +21,8 @@ const ResponsiveWebsite = () => {
                 <Route exact path="/about" render={() => <About />} />
                 <Route exact path="/contactus" render={() => <ContactUs />} />
                 <Route exact path="/developer" render={() => <Developer />} />
-                <Route path="/" render={() => <Error />} />
+                {/* <Route path="/" render={() => <Error />} /> */}
+                <Redirect to="/" />
             </Switch>
             <Footer />
         </>

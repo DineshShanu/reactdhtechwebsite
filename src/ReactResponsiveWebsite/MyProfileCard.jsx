@@ -13,7 +13,7 @@ const MyProfileCard = (props) => {
                                     <p className="my-2" style={{ color: "#6c757d" }}><strong className="brand-name">Hello, </strong> {props.cardtext}</p>
                                     <div className="mt-3">
                                         <a href="mailto:dineshkumar9890@gmail.com" target="_blank" className="btn-get-started">{props.btntext}</a>&ensp;
-                                        <a href="https://drive.google.com/file/d/1m8lby_YYOIkFnFpcZRKkvjQ3LwUKaimu/view?usp=sharing" target="_blank" className="btn-get-started">See My Resume</a>
+                                        <a href="https://drive.google.com/file/d/1m8lby_YYOIkFnFpcZRKkvjQ3LwUKaimu/view?usp=sharing" target="_blank" className="btn-get-started">Resume</a>
                                     </div>
                                 </div>
 

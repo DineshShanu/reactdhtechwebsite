@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import MailIcon from '@material-ui/icons/Mail';
 import CallIcon from '@material-ui/icons/Call';
 import PersonPinCircleIcon from '@material-ui/icons/PersonPinCircle';
@@ -14,6 +14,37 @@ import mysocialdata from "./Data/Socialdata";
 
 const ContactUs = () => {
     document.title = "Contact";
+    const [data, SetData] = useState({
+        fullname: '',
+        email: '',
+        message: ''
+    });
+
+    const txtchange =(event)=>{
+        const { name, value } = event.target;
+        SetData((preVal) => {
+            return {
+                ...preVal,
+                [name]: value
+            }
+        })
+    }
+    const formSubmit = (e) => {
+        e.preventDefault();
+        alert(`
+        Hi, ${data.fullname} 
+        We have recived your Information with these details
+        Email : ${data.email}
+        Message: ${data.message}
+        we will connect you soon.`);
+        SetData({
+            fullname: '',
+            email: '',
+            message: ''
+        })
+    };
+
+
     return (
         <>
             <div className="container-fluid my-4 ">
@@ -25,21 +56,21 @@ const ContactUs = () => {
                                 <p className="text-sm-left brand-name my-3" style={{ fontSize: "12px" }}>
                                     {mysocialdata.contactmsg}
                                 </p>
-                                <form>
+                                <form onSubmit={formSubmit}>
                                     <div className="mb-3">
                                         <label htmlFor="name" className="form-label">Name</label>
-                                        <input type="text" className="form-control" id="name" />
+                                        <input type="text" onChange={txtchange} name="fullname" value={data.fullname} className="form-control" id="name" />
                                     </div>
                                     <div className="mb-3">
                                         <label htmlFor="email" className="form-label">Email address</label>
-                                        <input type="email" className="form-control" id="email" />
+                                        <input type="email" onChange={txtchange} name="email" value={data.email} className="form-control" id="email" />
                                     </div>
                                     <div className="mb-3">
                                         <label htmlFor="message" className="form-label">Message</label>
-                                        <textarea className="form-control" id="message" rows="3"></textarea>
+                                        <textarea className="form-control" onChange={txtchange} name="message" value={data.message} id="message" rows="3"></textarea>
                                     </div>
                                     <div className="col-12 mt-4 text-right">
-                                        <button type="submit" variant="" className="btn btn-info">
+                                        <button disabled={data.message.length===0 || data.fullname.length===0 || data.email.length===0} type="submit" className="btn btn-info">
                                             Submit
                                         </button>
                                     </div>

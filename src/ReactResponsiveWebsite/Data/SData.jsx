@@ -1,5 +1,5 @@
 import WebD from "../Images/Web-Development.png";
-import AppD from "../Images/App-Development.png";
+// import AppD from "../Images/App-Development.png";
 import SofD from "../Images/Software-Development.png";
 import DegD from "../Images/Digital-Development.png";
 // import AndD from "../Images/Android-Development.png";

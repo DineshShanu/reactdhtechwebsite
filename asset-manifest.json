@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactdhtechwebsite/static/css/main.26f295e3.css",
-    "main.js": "/reactdhtechwebsite/static/js/main.d13e8c0b.js",
+    "main.js": "/reactdhtechwebsite/static/js/main.3e51ec26.js",
     "static/media/Dp.png": "/reactdhtechwebsite/static/media/Dp.49b40aae6446650b01aa.png",
     "static/media/react.png": "/reactdhtechwebsite/static/media/react.da363b94e54e6deee792.png",
     "static/media/sql.png": "/reactdhtechwebsite/static/media/sql.a9153c7bd9c8b20cdb2b.png",
@@ -17,7 +17,6 @@
     "static/media/css.png": "/reactdhtechwebsite/static/media/css.19c8605d6b2861f5fbe0.png",
     "static/media/html.png": "/reactdhtechwebsite/static/media/html.afd7f9dad185550ca985.png",
     "static/media/entityframework.png": "/reactdhtechwebsite/static/media/entityframework.9e5f4519f14922cab127.png",
-    "static/media/App-Development.png": "/reactdhtechwebsite/static/media/App-Development.a75fe1b7a3cb224045ac.png",
     "static/media/D_Logo.jpg": "/reactdhtechwebsite/static/media/D_Logo.6593ccfc27e299d7b36b.jpg",
     "static/media/officegx.png": "/reactdhtechwebsite/static/media/officegx.d440051e626bab049e46.png",
     "static/media/Web-Development.png": "/reactdhtechwebsite/static/media/Web-Development.64ebc14cd8a370db7493.png",
@@ -36,10 +35,10 @@
     "static/media/aspnetwebapi.png": "/reactdhtechwebsite/static/media/aspnetwebapi.e349d5b38e8a76a6de35.png",
     "index.html": "/reactdhtechwebsite/index.html",
     "main.26f295e3.css.map": "/reactdhtechwebsite/static/css/main.26f295e3.css.map",
-    "main.d13e8c0b.js.map": "/reactdhtechwebsite/static/js/main.d13e8c0b.js.map"
+    "main.3e51ec26.js.map": "/reactdhtechwebsite/static/js/main.3e51ec26.js.map"
   },
   "entrypoints": [
     "static/css/main.26f295e3.css",
-    "static/js/main.d13e8c0b.js"
+    "static/js/main.3e51ec26.js"
   ]
 }

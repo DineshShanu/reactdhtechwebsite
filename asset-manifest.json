@@ -1,21 +1,47 @@
 {
   "files": {
-    "main.css": "/reactdhtechwebsite/static/css/main.ec5fe005.css",
-    "main.js": "/reactdhtechwebsite/static/js/main.bc24c83a.js",
+    "main.css": "/reactdhtechwebsite/static/css/main.26f295e3.css",
+    "main.js": "/reactdhtechwebsite/static/js/main.0dde8b16.js",
     "static/media/Dp.png": "/reactdhtechwebsite/static/media/Dp.49b40aae6446650b01aa.png",
     "static/media/Marketing.png": "/reactdhtechwebsite/static/media/Marketing.d13186dc11f15c445134.png",
+    "static/media/react.png": "/reactdhtechwebsite/static/media/react.da363b94e54e6deee792.png",
+    "static/media/sql.png": "/reactdhtechwebsite/static/media/sql.a9153c7bd9c8b20cdb2b.png",
     "static/media/Android-Development.png": "/reactdhtechwebsite/static/media/Android-Development.4ef3f410a332d28e86d1.png",
+    "static/media/medaz.png": "/reactdhtechwebsite/static/media/medaz.6b290d5a03cc3becf37d.png",
+    "static/media/js.png": "/reactdhtechwebsite/static/media/js.0692978c6cef36178603.png",
+    "static/media/internships.png": "/reactdhtechwebsite/static/media/internships.15734e748e9a9e9aadad.png",
     "static/media/Digital-Development.png": "/reactdhtechwebsite/static/media/Digital-Development.a327c791e844b9833a73.png",
     "static/media/Software-Development.png": "/reactdhtechwebsite/static/media/Software-Development.998cef3e5e4805dd7ab0.png",
+    "static/media/csharp.png": "/reactdhtechwebsite/static/media/csharp.3137789c01ee1c3131f3.png",
+    "static/media/msdotnet.png": "/reactdhtechwebsite/static/media/msdotnet.ea6dd15267fc1aa9a468.png",
+    "static/media/deloitte.png": "/reactdhtechwebsite/static/media/deloitte.11a5b01611bf1ba0d449.png",
+    "static/media/aspnetrestapi.png": "/reactdhtechwebsite/static/media/aspnetrestapi.bfc34cbf896ab1071cf9.png",
+    "static/media/css.png": "/reactdhtechwebsite/static/media/css.19c8605d6b2861f5fbe0.png",
+    "static/media/html.png": "/reactdhtechwebsite/static/media/html.afd7f9dad185550ca985.png",
+    "static/media/entityframework.png": "/reactdhtechwebsite/static/media/entityframework.9e5f4519f14922cab127.png",
     "static/media/App-Development.png": "/reactdhtechwebsite/static/media/App-Development.a75fe1b7a3cb224045ac.png",
     "static/media/D_Logo.jpg": "/reactdhtechwebsite/static/media/D_Logo.6593ccfc27e299d7b36b.jpg",
+    "static/media/officegx.png": "/reactdhtechwebsite/static/media/officegx.d440051e626bab049e46.png",
     "static/media/Web-Development.png": "/reactdhtechwebsite/static/media/Web-Development.64ebc14cd8a370db7493.png",
+    "static/media/experience.png": "/reactdhtechwebsite/static/media/experience.9b3490a5ea30f9b6dc1f.png",
+    "static/media/carrier.png": "/reactdhtechwebsite/static/media/carrier.60d6343d9fd5bd66eef2.png",
+    "static/media/jquery.png": "/reactdhtechwebsite/static/media/jquery.d7a89b5bf087dbfdcf55.png",
+    "static/media/figma.png": "/reactdhtechwebsite/static/media/figma.ba01545374bf9a89ab8e.png",
+    "static/media/azure.png": "/reactdhtechwebsite/static/media/azure.fb03252cd6645868989e.png",
+    "static/media/aspnetcore.png": "/reactdhtechwebsite/static/media/aspnetcore.d46c88324052db670d09.png",
+    "static/media/Linq.png": "/reactdhtechwebsite/static/media/Linq.e295fe0ddb3c66683a04.png",
+    "static/media/gitlab.png": "/reactdhtechwebsite/static/media/gitlab.c2743b81b7f126eaa43d.png",
+    "static/media/aspnetmvc.png": "/reactdhtechwebsite/static/media/aspnetmvc.fa0a0b9f106431101bfc.png",
+    "static/media/github.png": "/reactdhtechwebsite/static/media/github.1b136cd11de4e9b17d88.png",
+    "static/media/kendo.png": "/reactdhtechwebsite/static/media/kendo.ad4c3547f359dcdc0031.png",
+    "static/media/bootstrap.png": "/reactdhtechwebsite/static/media/bootstrap.fd3cb129782ecd201164.png",
+    "static/media/aspnetwebapi.png": "/reactdhtechwebsite/static/media/aspnetwebapi.e349d5b38e8a76a6de35.png",
     "index.html": "/reactdhtechwebsite/index.html",
-    "main.ec5fe005.css.map": "/reactdhtechwebsite/static/css/main.ec5fe005.css.map",
-    "main.bc24c83a.js.map": "/reactdhtechwebsite/static/js/main.bc24c83a.js.map"
+    "main.26f295e3.css.map": "/reactdhtechwebsite/static/css/main.26f295e3.css.map",
+    "main.0dde8b16.js.map": "/reactdhtechwebsite/static/js/main.0dde8b16.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec5fe005.css",
-    "static/js/main.bc24c83a.js"
+    "static/css/main.26f295e3.css",
+    "static/js/main.0dde8b16.js"
   ]
 }

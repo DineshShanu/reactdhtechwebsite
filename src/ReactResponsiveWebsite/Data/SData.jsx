@@ -4,7 +4,7 @@ import SofD from "../Images/Software-Development.png";
 import DegD from "../Images/Digital-Development.png";
 // import AndD from "../Images/Android-Development.png";
 // import Mar from "../Images/Marketing.png";
-// import MyImg from "../Images/Dp.png";
+import MyImg from "../Images/Dp.png";
 
 import deloitt from "../Images/Projects/deloitte.png";
 import carrier from "../Images/Projects/carrier.png";

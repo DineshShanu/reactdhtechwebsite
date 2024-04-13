@@ -3,15 +3,16 @@ import img from "../ReactResponsiveWebsite/Images/D_Logo.jpg";
 import Common from "./Common";
 
 const Home = () => {
+    document.title = "Home";
     return (
         <>
             <Common
-                name='Grow your business with'
-                brandName='DH Tech'
-                message='We are the team of talented developer making websites'
+                name='Hello, This is'
+                brandName='Dinesh Kuumar'
+                message="I'm a Professional Senior Software Engineer."
                 imgsrc={img}
-                visit="/service"
-                btnname="Get Started" />
+                visit="/contact"
+                btnname="Contact" />
         </>
     )
 }

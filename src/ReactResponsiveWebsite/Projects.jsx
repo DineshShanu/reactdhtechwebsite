@@ -1,23 +1,25 @@
-import React from "react";
-import { Mydata } from "./Data/SData";
-import MyProfileCard from "./MyProfileCard";
+import React from 'react'
+import Card from "./Card";
+import { Myprojects } from "./Data/SData";
 
-const Developer = () => {
+const Projects = () => {
+    document.title = "Projects";
     return (
         <>
-            <div className="my-5">
-                <h2 className="text-center text-uppercase">My Profile</h2>
+            <div className="my-4">
                 <div className="container-fluid mb-5">
                     <div className="row">
                         <div className="col-10 mx-auto">
+                            <h2><strong className="text-uppercase brand-name">{"Projects"}</strong></h2>
                             <div className="row gy-4">
                                 {
-                                    Mydata.map((val, index) => {
-                                        return <MyProfileCard
+                                    Myprojects.map((val, index) => {
+                                        return <Card
                                             key={index}
                                             imgsrc={val.imgsrc}
                                             title={val.title}
                                             btntext={val.btntext}
+                                            siteUrl={val.siteUrl}
                                             cardtext={val.cardtext}
                                         />
                                     })
@@ -31,4 +33,4 @@ const Developer = () => {
     )
 }
 
-export default Developer;
+export default Projects

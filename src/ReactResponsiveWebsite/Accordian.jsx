@@ -15,7 +15,7 @@ const Accordian = (props) => {
                     </summary>
                     <div className="accordion-content">
                         <p>
-                            <ComputerIcon /> {props.role} &ensp;&ensp;&ensp;
+                            <ComputerIcon /> {props.role} <br />
                             <code><DateRangeIcon /> {props.date}</code><br />
                             <PersonPinIcon /> {props.place}
                         </p>

@@ -1,8 +1,8 @@
 const mysocialdata =
 {
     email: "dineshkumar9890@gmail.com",
-    phone: "+1 (437)-669-9890",
-    address: "Longhorn Trail, Mississauga, ON L4Z 3G4",
+    phone: "+91 7488326935",
+    address: "Prakash Nagar, Begumpet, Hyderabad, Telangana 500016, India",
     github: "https://github.com/DineshShanu",
     linkedin: "https://www.linkedin.com/in/dineshkumar9890",
     facebook: "https://www.facebook.com/profile.php?id=100002657756592",

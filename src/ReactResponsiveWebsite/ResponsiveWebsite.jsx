@@ -14,9 +14,11 @@ import Projects from "./Projects";
 import { Switch, Route, Redirect } from "react-router-dom";
 import "./ResponsiveWebsite.css";
 import Footer from "./Footer";
+import ScrollToTop from "react-scroll-to-top";
 const ResponsiveWebsite = () => {
     return (
         <>
+            <ScrollToTop smooth color="#4799cd" className="icon-position icon-style" />
             <Menu />
             <Switch>
                 <Route exact path="/" component={() => <Home />} />

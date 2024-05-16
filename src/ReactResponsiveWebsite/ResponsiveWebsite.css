@@ -246,7 +246,7 @@ section {
 
 .footer {
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
   color: #4799cd;
   padding: 5px 5px;
 }
@@ -288,3 +288,41 @@ section {
 {
   color: #6c757d;
 }
+
+.togglebtn {
+  border: none !important;
+  background: white !important;
+}
+
+/* Scroll-top-CSS start */
+.icon-style{
+  border: 1px solid #fff !important;
+  border-radius: 100% !important;
+  cursor: pointer;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all .5s ease-in-out;
+}
+.icon-style:hover{
+  animation: none;
+  background: #fff !important;
+  color: #4799cd !important;
+  border: 1px solid #4799cd !important;
+}
+@keyframes movebtn {
+  0%{
+    transform: translateY(0px);
+  }
+  25%{
+    transform: translateY(20px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  75%{
+    transform: translateY(-20px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+/* Scroll top end */

@@ -1,6 +1,6 @@
 const experience = [
     {
-        date: "Feb 2024 to Present",
+        date: "Feb 2024 to Jun 2024",
         role: "Senior Software Engineer",
         company: "Q2Hire Consulting",
         place: "Toronto, Canada"

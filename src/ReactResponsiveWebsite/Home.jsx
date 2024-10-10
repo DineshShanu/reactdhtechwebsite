@@ -8,7 +8,7 @@ const Home = () => {
         <>
             <Common
                 name='Hello, This is'
-                brandName='Dinesh Kuumar'
+                brandName='Dinesh Kumar'
                 message="I'm a Professional Senior Software Engineer."
                 imgsrc={img}
                 visit="/contact"

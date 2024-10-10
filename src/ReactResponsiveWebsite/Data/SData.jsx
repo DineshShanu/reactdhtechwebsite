@@ -57,7 +57,7 @@ const Mydata = [
     {
         imgsrc: MyImg,
         title: "about me",
-        cardtext: "I'm Dinesh Kuumar, a seasoned Full Stack .NET developer with C# and Asp.net MVC Core proficiency who thrives in creating creative software solutions that prioritize performance and scalability. I provide cutting-edge solutions that are customized to meet the demands of clients and I'm dedicated to staying current. thrives in teamwork settings, offering problem-solving abilities and meticulous attention to detail to guarantee project success while continuously aiming for perfection.",
+        cardtext: "I'm Dinesh Kumar, a seasoned Full Stack .NET developer with C# and Asp.net MVC Core proficiency who thrives in creating creative software solutions that prioritize performance and scalability. I provide cutting-edge solutions that are customized to meet the demands of clients and I'm dedicated to staying current. thrives in teamwork settings, offering problem-solving abilities and meticulous attention to detail to guarantee project success while continuously aiming for perfection.",
         btntext: "Email"
     },
 ];

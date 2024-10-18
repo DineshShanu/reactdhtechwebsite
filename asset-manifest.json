@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactdhtechwebsite/static/css/main.1a635263.css",
-    "main.js": "/reactdhtechwebsite/static/js/main.4760ee69.js",
+    "main.js": "/reactdhtechwebsite/static/js/main.7bcecfab.js",
     "static/media/Dp.png": "/reactdhtechwebsite/static/media/Dp.49b40aae6446650b01aa.png",
     "static/media/react.png": "/reactdhtechwebsite/static/media/react.da363b94e54e6deee792.png",
     "static/media/sql.png": "/reactdhtechwebsite/static/media/sql.a9153c7bd9c8b20cdb2b.png",
@@ -30,15 +30,16 @@
     "static/media/gitlab.png": "/reactdhtechwebsite/static/media/gitlab.c2743b81b7f126eaa43d.png",
     "static/media/aspnetmvc.png": "/reactdhtechwebsite/static/media/aspnetmvc.fa0a0b9f106431101bfc.png",
     "static/media/github.png": "/reactdhtechwebsite/static/media/github.1b136cd11de4e9b17d88.png",
+    "static/media/TaoDigital.png": "/reactdhtechwebsite/static/media/TaoDigital.cb61de7022f01fccc015.png",
     "static/media/kendo.png": "/reactdhtechwebsite/static/media/kendo.ad4c3547f359dcdc0031.png",
     "static/media/bootstrap.png": "/reactdhtechwebsite/static/media/bootstrap.fd3cb129782ecd201164.png",
     "static/media/aspnetwebapi.png": "/reactdhtechwebsite/static/media/aspnetwebapi.e349d5b38e8a76a6de35.png",
     "index.html": "/reactdhtechwebsite/index.html",
     "main.1a635263.css.map": "/reactdhtechwebsite/static/css/main.1a635263.css.map",
-    "main.4760ee69.js.map": "/reactdhtechwebsite/static/js/main.4760ee69.js.map"
+    "main.7bcecfab.js.map": "/reactdhtechwebsite/static/js/main.7bcecfab.js.map"
   },
   "entrypoints": [
     "static/css/main.1a635263.css",
-    "static/js/main.4760ee69.js"
+    "static/js/main.7bcecfab.js"
   ]
 }

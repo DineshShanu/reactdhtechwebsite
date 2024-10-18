@@ -10,6 +10,7 @@ import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import EmailIcon from '@material-ui/icons/Email';
 import "./ResponsiveWebsite.css";
 import mysocialdata from "./Data/Socialdata";
+import emailjs from '@emailjs/browser';
 
 
 const ContactUs = () => {
@@ -20,7 +21,7 @@ const ContactUs = () => {
         message: ''
     });
 
-    const txtchange =(event)=>{
+    const txtchange = (event) => {
         const { name, value } = event.target;
         SetData((preVal) => {
             return {
@@ -31,17 +32,31 @@ const ContactUs = () => {
     }
     const formSubmit = (e) => {
         e.preventDefault();
-        alert(`
-        Hi, ${data.fullname} 
-        We have recived your Information with these details
-        Email : ${data.email}
-        Message: ${data.message}
-        we will connect you soon.`);
-        SetData({
-            fullname: '',
-            email: '',
-            message: ''
-        })
+
+        const serviceId = 'service_jmt4t45';
+        const templateId = 'template_wi62gqc';
+        const publicKey = 'ZAkXlQjKFlzF5-Gu0';
+        const templateParams =
+        {
+            from_name: data.fullname,
+            to_name: "Dinesh Kumar",
+            from_email: data.email,
+            message: data.message
+        }
+
+        emailjs.send(serviceId, templateId, templateParams, publicKey).then(
+            (response) => {
+                alert("I sincerely appreciate your precious time. I'll be in touch with you soon."+ response.text)
+                SetData({
+                    fullname: '',
+                    email: '',
+                    message: ''
+                })
+            },
+            (error) => {
+                console.log('FAILED...', error);
+            },
+        );
     };
 
 
@@ -70,7 +85,7 @@ const ContactUs = () => {
                                         <textarea className="form-control" onChange={txtchange} name="message" value={data.message} id="message" rows="3"></textarea>
                                     </div>
                                     <div className="col-12 mt-4 text-right">
-                                        <button disabled={data.message.length===0 || data.fullname.length===0 || data.email.length===0} type="submit" className="btn btn-info">
+                                        <button disabled={data.message.length === 0 || data.fullname.length === 0 || data.email.length === 0} type="submit" className="btn btn-info">
                                             Submit
                                         </button>
                                     </div>

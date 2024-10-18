@@ -6,6 +6,7 @@ import DegD from "../Images/Digital-Development.png";
 // import Mar from "../Images/Marketing.png";
 import MyImg from "../Images/Dp.png";
 
+import taodigital from "../Images/Projects/TaoDigital.png";
 import deloitt from "../Images/Projects/deloitte.png";
 import carrier from "../Images/Projects/carrier.png";
 import medaz from "../Images/Projects/medaz.png";
@@ -64,9 +65,16 @@ const Mydata = [
 
 const Myprojects =[
     {
+        imgsrc: taodigital,
+        title: "TAO Digital",
+        cardtext: "At TAO, diversity and inclusivity are at the heart of everything we do. Our team is a dynamic blend of individuals with diverse backgrounds, cultures, and experiences, creating a rich tapestry of knowledge and creativity. By embracing all forms of",
+        siteUrl: "https://www.taodigitalsolutions.com/",
+        btntext: "Visit"
+    },
+    {
         imgsrc: WebD,
         title: "Q2Hire",
-        cardtext: "My current project is the Q2Hire website design, which I'm working on to migrate from VB.Net to React and.NET Core 5 with SQL Server and use Azure CI CD pipeline to deploy in IIS Server.",
+        cardtext: "In this company I have worked on to migrate from VB.Net to React and.NET Core 5 with SQL Server and use Azure CI CD pipeline to deploy in IIS Server.",
         siteUrl: "http://q2hire.com/",
         btntext: "Visit"
     },

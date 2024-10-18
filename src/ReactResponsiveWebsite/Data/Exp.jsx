@@ -1,5 +1,11 @@
 const experience = [
     {
+        date: "Oct 2024 to Present",
+        role: "Senior Software Engineer",
+        company: "TAO Digital Solutions",
+        place: "Hyderabad, India"
+    },
+    {
         date: "Feb 2024 to Jun 2024",
         role: "Senior Software Engineer",
         company: "Q2Hire Consulting",
@@ -8,7 +14,7 @@ const experience = [
     {
         date: "Oct 2022 to Dec 2023",
         role: "Senior Software Engineer",
-        company: "Deloitte Consulting",
+        company: "Joulestowatts",
         place: "Hyderabad, India"
     },
     {
@@ -20,7 +26,7 @@ const experience = [
     {
         date: "Sep 2018 to Jun 2021",
         role: "Software Engineer",
-        company: "Mavlvi System LLC",
+        company: "Malvi System LLC",
         place: "Hyderabad, India"
     },
     {

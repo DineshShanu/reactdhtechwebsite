@@ -33,8 +33,8 @@ const ContactUs = () => {
     const formSubmit = (e) => {
         e.preventDefault();
 
-        const serviceId = 'service_jmt4t45';
-        const templateId = 'template_wi62gqc';
+        const serviceId = 'service_0fr9hix';
+        const templateId = 'template_3w0szf9';
         const publicKey = 'ZAkXlQjKFlzF5-Gu0';
         const templateParams =
         {

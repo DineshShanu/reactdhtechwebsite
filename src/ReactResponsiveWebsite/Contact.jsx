@@ -35,7 +35,7 @@ const ContactUs = () => {
 
         const serviceId = 'service_0fr9hix';
         const templateId = 'template_3w0szf9';
-        const publicKey = 'ZAkXlQjKFlzF5-Gu0';
+        const publicKey = '7U85VEeHxYu_6T5L2';
         const templateParams =
         {
             from_name: data.fullname,

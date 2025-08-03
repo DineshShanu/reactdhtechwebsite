@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactdhtechwebsite/static/css/main.1a635263.css",
-    "main.js": "/reactdhtechwebsite/static/js/main.1c56fbbd.js",
+    "main.js": "/reactdhtechwebsite/static/js/main.f101db88.js",
     "static/media/Dp.png": "/reactdhtechwebsite/static/media/Dp.49b40aae6446650b01aa.png",
     "static/media/react.png": "/reactdhtechwebsite/static/media/react.da363b94e54e6deee792.png",
     "static/media/sql.png": "/reactdhtechwebsite/static/media/sql.a9153c7bd9c8b20cdb2b.png",
@@ -36,10 +36,10 @@
     "static/media/aspnetwebapi.png": "/reactdhtechwebsite/static/media/aspnetwebapi.e349d5b38e8a76a6de35.png",
     "index.html": "/reactdhtechwebsite/index.html",
     "main.1a635263.css.map": "/reactdhtechwebsite/static/css/main.1a635263.css.map",
-    "main.1c56fbbd.js.map": "/reactdhtechwebsite/static/js/main.1c56fbbd.js.map"
+    "main.f101db88.js.map": "/reactdhtechwebsite/static/js/main.f101db88.js.map"
   },
   "entrypoints": [
     "static/css/main.1a635263.css",
-    "static/js/main.1c56fbbd.js"
+    "static/js/main.f101db88.js"
   ]
 }
